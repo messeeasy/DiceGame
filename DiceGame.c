@@ -9,6 +9,11 @@ int main(){
     int i;
     int die1;
     int die2;
+    char name[10];
+
+    printf("What is your name?\n");
+    scanf("%s",name);
+    printf("Hello, %s!\n",name);
 
     srand((unsigned int)time(NULL));
 
