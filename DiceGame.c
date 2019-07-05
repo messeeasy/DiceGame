@@ -23,8 +23,8 @@ int main(){
         printf("Die 1: %d\n",die1);
         printf("Die 2: %d\n",die2);
         printf("Total value: %d\n",die1+die2);
-        if (die1+die2>7)printf("You win\n\n");
-        else printf("You lost\n\n");
+        if (die1+die2>7)printf("%s win!\n\n",name);
+        else printf("%s lost$\n\n",name);
         return 0;
     
 }
